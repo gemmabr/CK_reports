@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Hi from Dimas!!! 4 -->
+<!-- Hi from Dimas!!! Last one -->
 <openerp>
     <data>
 <t t-name="sale.report_saleorder_document">
