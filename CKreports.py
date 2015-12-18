@@ -4,7 +4,7 @@
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
 #    by the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
+#    (at your option) any later version. 1
 #
 #    This program is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -16,31 +16,4 @@
 #
 ##############################################################################
 
-{
-    "name": "Click Coin - Reports",
-    "version": "1.0",
-    "depends": [
-        "sale",
-	"stock",
-        "purchase",
-	"account",
-    ],
-    "author": "OdooMRP team,"
-              "AvanzOSC,"
-              "Gemma Bochaca",
 
-    "category": "Custom Module",
-    "website": "http://www.odoomrp.com",
-    "summary": "Customized reports for BBC Packaging company",
-    "description": """
-
-    """,
-    "data": [
-        "views/report_saleCK.xml",
-	"views/report_deliverynoteCK.xml",
-        "views/report_purchaseCK.xml",
-        "views/report_saleinvoiceCK.xml",
-        "CKreports_report.xml",
-    ],
-    "installable": True,
-}

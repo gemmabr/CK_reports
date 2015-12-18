@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="report_saleCK"
+            string="Pedido de venta CK"
+            model="sale.order"
+            report_type="qweb-pdf"
+            file="CKreports.report_saleCKtemplate"
+            name="CKreports.report_saleCKtemplate"
+        />
+        <report
+            id="report_deliverynoteCK"
+            string="Albaran CK"
+            model="stock.picking"
+            report_type="qweb-pdf"
+            file="CKreports.report_deliverynoteCKtemplate"
+            name="CKreports.report_deliverynoteCKtemplate"
+        />
+        <report
+            id="report_purchaseCK"
+            string="Pedido de compra CK"
+            model="purchase.order"
+            report_type="qweb-pdf"
+            file="CKreports.report_purchaseCKtemplate"
+            name="CKreports.report_purchaseCKtemplate"
+        />
+        <report
+            id="report_saleinvoiceCK"
+            string="Factura de venta CK"
+            model="account.invoice"
+            report_type="qweb-pdf"
+            file="CKreports.report_saleinvoiceCKtemplate"
+            name="CKreports.report_saleinvoiceCKtemplate"
+        />
+    </data>
+</openerp>
